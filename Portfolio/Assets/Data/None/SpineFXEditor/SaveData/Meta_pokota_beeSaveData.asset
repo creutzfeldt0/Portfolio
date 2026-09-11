@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bac5275662653d4bbc545df4758dd7a, type: 3}
+  m_Name: Meta_pokota_beeSaveData
+  m_EditorClassIdentifier: 
+  m_SceneType: 0
+  m_SkeletonDataAsset: {fileID: 11400000, guid: 8abae299c5d22f047afc2af01ea527cc,
+    type: 2}
+  m_SpineScale: 1
+  m_FXDatas_All: '{"Index":0,"FXName":"FX_Star_Trail_01_Bee_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Bee_01.prefab","FXNotiTime":0.0,"FXDeleteTime":4.0,"IsSpineBack":false,"IsBoneChase":false,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":1,"FXName":"FX_Minion_Attack_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Minion_Attack_01.prefab","FXNotiTime":0.0,"FXDeleteTime":1.399999976158142,"IsSpineBack":false,"IsBoneChase":false,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":0,"FXTypeData":"battle_attack"};{"Index":2,"FXName":"FX_Minion_Attack_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Minion_Attack_02.prefab","FXNotiTime":0.0,"FXDeleteTime":1.399999976158142,"IsSpineBack":false,"IsBoneChase":false,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":0,"FXTypeData":"battle_attack"};{"Index":3,"FXName":"FX_Star_Trail_01_Bee_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Bee_02.prefab","FXNotiTime":0.0,"FXDeleteTime":4.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":411,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":4,"FXName":"FX_Star_Trail_01_Bee_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Bee_02.prefab","FXNotiTime":0.0,"FXDeleteTime":4.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":412,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":5,"FXName":"FX_Star_Trail_01_Bee_03","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Bee_03.prefab","FXNotiTime":0.0,"FXDeleteTime":4.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":414,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":6,"FXName":"FX_Star_Trail_01_Bee_03","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Bee_03.prefab","FXNotiTime":0.0,"FXDeleteTime":4.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":413,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"}'
+  m_FXObjects:
+  - {fileID: 2425150964811998504, guid: 91bc4a9636f34444ab756c6017a0782a, type: 3}
+  - {fileID: 99422740883713442, guid: 1e0cf9967b809544a8e60e3fedec48b3, type: 3}
+  - {fileID: 99422740883713442, guid: 5adcd1b319a974348acefb9e2f154423, type: 3}
+  - {fileID: 2425150964811998504, guid: a75140f48af2447468902530e5b978a8, type: 3}
+  - {fileID: 2425150964811998504, guid: a75140f48af2447468902530e5b978a8, type: 3}
+  - {fileID: 2425150964811998504, guid: de32e4ea695276b4399d2a5c3a3bcd1f, type: 3}
+  - {fileID: 2425150964811998504, guid: de32e4ea695276b4399d2a5c3a3bcd1f, type: 3}

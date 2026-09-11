@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bac5275662653d4bbc545df4758dd7a, type: 3}
+  m_Name: monster_uniconSaveData
+  m_EditorClassIdentifier: 
+  m_SceneType: 0
+  m_SkeletonDataAsset: {fileID: 11400000, guid: 73ad551f9cac7a9499212d7b0fb10eb1,
+    type: 2}
+  m_SpineScale: 1
+  m_FXDatas_All: '{"Index":0,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.47999998927116396,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":133,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"};{"Index":1,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.5099999904632568,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":140,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"};{"Index":2,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.5400000214576721,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":138,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"};{"Index":3,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.5400000214576721,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":136,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"};{"Index":4,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.6150000095367432,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":137,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"};{"Index":5,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.6399999856948853,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":135,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"};{"Index":6,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.6399999856948853,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":134,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"};{"Index":7,"FXName":"FX_Moster_Tuto_Boom_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Moster_Tuto_Boom_01.prefab","FXNotiTime":0.7099999785423279,"FXDeleteTime":6.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":139,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"z_provoke"}'
+  m_FXObjects:
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}
+  - {fileID: 6725265736398462871, guid: 515a30336045f29449f76ab620ec5eca, type: 3}

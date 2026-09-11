@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/2_Script/SpineFXEditor/UIToolKit/USS/USS_BTN_Base.uss?fileID=7433441132597879392&amp;guid=1dd5076a3ee439943bc592404de9bad2&amp;type=3#USS_BTN_Base" />
+    <ui:Button display-tooltip-when-elided="true" name="BTN_Base" enable-rich-text="true" class="BTN_Base" style="flex-shrink: 1;">
+        <ui:VisualElement name="VE_Selected" class="BTN_Selected_Off" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="LB_BTN_Text" class="LB_BTN_Text" style="font-size: 30px; flex-shrink: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+    </ui:Button>
+</ui:UXML>

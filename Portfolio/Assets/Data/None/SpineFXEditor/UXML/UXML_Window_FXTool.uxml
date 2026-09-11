@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UXML_Popup_EditorTabs" src="project://database/Assets/SpineFXEditor/UXML/UXML_Popup_EditorTabs.uxml?fileID=9197481963319205126&amp;guid=5a3eb51b2e3a4da4580a2151bd6bc0f5&amp;type=3#UXML_Popup_EditorTabs" />
+    <ui:Template name="UXML_Popup_Spine_Editor" src="project://database/Assets/SpineFXEditor/UXML/UXML_Popup_File.uxml?fileID=9197481963319205126&amp;guid=e8aa5cf76b91c9e43890fce83e1b8fe1&amp;type=3#UXML_Popup_File" />
+    <ui:Template name="UXML_Popup_File" src="project://database/Assets/SpineFXEditor/UXML/UXML_Popup_Spine_Editor.uxml?fileID=9197481963319205126&amp;guid=dde22dea84954ea4da87c28de6ec1230&amp;type=3#UXML_Popup_Spine_Editor" />
+    <ui:Template name="UXML_Popup_AniSelect" src="project://database/Assets/SpineFXEditor/UXML/UXML_Popup_Select.uxml?fileID=9197481963319205126&amp;guid=fd93a70359eb5bd46b4cb206e69c7b9a&amp;type=3#UXML_Popup_Select" />
+    <Style src="project://database/Assets/SpineFXEditor/USS/USS_Window_FXTool.uss?fileID=7433441132597879392&amp;guid=934cb2b6d0aa9a94d80e2586378da9a9&amp;type=3#USS_Window_FXTool" />
+    <ui:VisualElement name="VE_Window_FXTool" style="flex-direction: row; flex-grow: 1; background-color: rgb(0, 0, 0); position: relative; justify-content: space-between;">
+        <ui:VisualElement name="VE_SceneScreen" style="background-image: url(&apos;project://database/Assets/SpineFXEditor/Render_Texture.renderTexture?fileID=8400000&amp;guid=9a518d2f9578cd44b91adf9debb66b4b&amp;type=2#Render_Texture&apos;); width: 400px; height: 711px; -unity-background-scale-mode: scale-to-fit;" />
+        <ui:VisualElement name="VE_RightUI" style="flex-grow: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px;">
+            <ui:Instance template="UXML_Popup_EditorTabs" name="UXML_Popup_EditorTabs" style="flex-grow: 1; height: 6%; width: 40%; min-height: 30px; max-height: 80px;" />
+            <ui:GroupBox name="GB_Popups" style="flex-grow: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; flex-shrink: 1;">
+                <ui:Instance template="UXML_Popup_Spine_Editor" name="UXML_Popup_File" style="flex-grow: 1; display: none;" />
+                <ui:Instance template="UXML_Popup_File" name="UXML_Popup_Spine_Editor" style="flex-grow: 1; display: none;" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="UXML_Popup_AniSelect" name="UXML_Popup_AniSelect" style="position: absolute; flex-grow: 1; display: none; min-width: 100%;" />
+    <ui:Instance template="UXML_Popup_AniSelect" name="UXML_Popup_SkinSelect" style="display: none; position: absolute; flex-grow: 1; min-width: 100%;" />
+</ui:UXML>

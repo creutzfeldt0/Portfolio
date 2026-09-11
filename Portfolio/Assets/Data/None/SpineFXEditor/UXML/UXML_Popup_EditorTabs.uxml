@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UXML_Toggle_Base" src="project://database/Assets/2_Script/SpineFXEditor/UIToolKit/UXML/UXML_Toggle_Base.uxml?fileID=9197481963319205126&amp;guid=d913bfe82ea43454298cbeeecc4e6ab0&amp;type=3#UXML_Toggle_Base" />
+    <Style src="project://database/Assets/2_Script/SpineFXEditor/UIToolKit/USS/USS_Popup_EditorTabs.uss?fileID=7433441132597879392&amp;guid=c3fd7d21846deec4b814c2e40a845afc&amp;type=3#USS_Popup_EditorTabs" />
+    <ui:VisualElement name="VE_Popup_EditorTabs" style="flex-direction: row; flex-grow: 1; max-width: 700px;">
+        <ui:Instance template="UXML_Toggle_Base" name="Toggle_File" style="flex-grow: 1; height: 100%;">
+            <AttributeOverrides element-name="LB_Toggle_Text" text="파일" />
+        </ui:Instance>
+        <ui:Instance template="UXML_Toggle_Base" name="Toggle_Editor" style="flex-grow: 1; height: 100%;">
+            <AttributeOverrides element-name="LB_Toggle_Text" text="에디터" />
+        </ui:Instance>
+    </ui:VisualElement>
+</ui:UXML>

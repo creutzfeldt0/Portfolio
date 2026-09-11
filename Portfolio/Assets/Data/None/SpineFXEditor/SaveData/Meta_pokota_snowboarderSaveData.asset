@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bac5275662653d4bbc545df4758dd7a, type: 3}
+  m_Name: Meta_pokota_snowboarderSaveData
+  m_EditorClassIdentifier: 
+  m_SceneType: 0
+  m_SkeletonDataAsset: {fileID: 11400000, guid: b03f392f3e7d5ee4f8d88c40939d4185,
+    type: 2}
+  m_SpineScale: 1
+  m_FXDatas_All: '{"Index":0,"FXName":"FX_Minion_Attack_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Minion_Attack_01.prefab","FXNotiTime":0.0,"FXDeleteTime":1.399999976158142,"IsSpineBack":false,"IsBoneChase":false,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":0,"FXTypeData":"battle_attack"};{"Index":1,"FXName":"FX_Minion_Attack_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Minion_Attack_02.prefab","FXNotiTime":0.0,"FXDeleteTime":1.399999976158142,"IsSpineBack":false,"IsBoneChase":false,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":0,"FXTypeData":"battle_attack"};{"Index":2,"FXName":"FX_Star_Trail_01_Snowboarder_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Snowboarder_01.prefab","FXNotiTime":0.3499999940395355,"FXDeleteTime":7.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":3,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":3,"FXName":"FX_Skin_Snowboarder_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Skin_Snowboarder_02.prefab","FXNotiTime":1.4500000476837159,"FXDeleteTime":1.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":397,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":4,"FXName":"FX_Skin_Snowboarder_03","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Skin_Snowboarder_03.prefab","FXNotiTime":0.3499999940395355,"FXDeleteTime":1.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":398,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":5,"FXName":"FX_Star_Trail_01_Snowboarder_04","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Snowboarder_04.prefab","FXNotiTime":0.38499999046325686,"FXDeleteTime":7.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":399,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":6,"FXName":"FX_Star_Trail_01_Snowboarder_05","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Snowboarder_05.prefab","FXNotiTime":0.0,"FXDeleteTime":7.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":7,"FXName":"FX_Skin_Snowboarder_03","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Skin_Snowboarder_03.prefab","FXNotiTime":2.549999952316284,"FXDeleteTime":1.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":398,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":8,"FXName":"FX_Skin_Snowboarder_07","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Skin_Snowboarder_07.prefab","FXNotiTime":1.25,"FXDeleteTime":1.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":398,"FXPosition":{"x":0.10000000149011612,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_tap_go"};{"Index":9,"FXName":"FX_Skin_Snowboarder_06","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Skin_Snowboarder_06.prefab","FXNotiTime":0.5249999761581421,"FXDeleteTime":1.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":397,"FXPosition":{"x":0.10000000149011612,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_tap_go"}'
+  m_FXObjects:
+  - {fileID: 99422740883713442, guid: 1e0cf9967b809544a8e60e3fedec48b3, type: 3}
+  - {fileID: 99422740883713442, guid: 5adcd1b319a974348acefb9e2f154423, type: 3}
+  - {fileID: 2425150964811998504, guid: 35e29ff2cf44da740b2e81c844dd9ffe, type: 3}
+  - {fileID: 2425150964811998504, guid: f0dc6cfd1ed01d84cb24eddfd9765d8f, type: 3}
+  - {fileID: 2425150964811998504, guid: e3c2c280652bf754aa17e024f2af2e1f, type: 3}
+  - {fileID: 2425150964811998504, guid: fe0361fe07cb1f1419190622565a6aa2, type: 3}
+  - {fileID: 2425150964811998504, guid: 23587e672557c1d4f876003c7099076c, type: 3}
+  - {fileID: 2425150964811998504, guid: e3c2c280652bf754aa17e024f2af2e1f, type: 3}
+  - {fileID: 2425150964811998504, guid: 9b7ab1e0c84dc7147a0e720711fdd82d, type: 3}
+  - {fileID: 2425150964811998504, guid: 23d927498c22d294ca4a31b1758e41be, type: 3}

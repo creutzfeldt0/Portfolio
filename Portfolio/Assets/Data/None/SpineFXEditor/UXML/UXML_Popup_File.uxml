@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UXML_BTN_Base" src="project://database/Assets/2_Script/SpineFXEditor/UIToolKit/UXML/UXML_BTN_Base.uxml?fileID=9197481963319205126&amp;guid=e7c2670c81ae94c45ab42ccb0815c056&amp;type=3#UXML_BTN_Base" />
+    <Style src="project://database/Assets/2_Script/SpineFXEditor/UIToolKit/USS/USS_Popup_File.uss?fileID=7433441132597879392&amp;guid=e319891e52e6ff846a4133d5bb844bdd&amp;type=3#USS_Popup_File" />
+    <ui:VisualElement name="VE_Popup_File" style="max-width: 700px;">
+        <ui:GroupBox name="GB_Save" style="border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; flex-shrink: 1; flex-grow: 1; flex-direction: row; min-height: 54px;">
+            <ui:Label text="작업 저장" name="LB_T_Save_Work" style="color: rgb(255, 255, 255); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-center; font-size: 20px; flex-shrink: 1; flex-grow: 1; max-width: 100px;" />
+            <ui:Instance template="UXML_BTN_Base" name="BTN_Load_Work" style="flex-grow: 1; width: auto; margin-left: 4px; margin-right: 4px;">
+                <AttributeOverrides element-name="LB_BTN_Text" text="이전 작업 불러오기" />
+            </ui:Instance>
+            <ui:Instance template="UXML_BTN_Base" name="BTN_Save_Work" style="flex-grow: 1; height: auto; margin-left: 4px; margin-right: 4px;">
+                <AttributeOverrides element-name="LB_BTN_Text" text="작업 저장하기" />
+            </ui:Instance>
+        </ui:GroupBox>
+        <ui:GroupBox name="GB_Export" style="border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; min-height: 54px; flex-grow: 1; flex-shrink: 1; flex-direction: row; justify-content: center;">
+            <ui:Instance template="UXML_BTN_Base" name="BTN_Export_Work" style="flex-grow: 1; align-items: stretch;">
+                <AttributeOverrides element-name="LB_BTN_Text" text="작업내용 추출하기" />
+            </ui:Instance>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

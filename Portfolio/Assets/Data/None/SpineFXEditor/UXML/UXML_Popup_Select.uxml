@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UXML_BTN_Base" src="project://database/Assets/UI%20Toolkit/UXML/UXML_BTN_Base.uxml?fileID=9197481963319205126&amp;guid=e7c2670c81ae94c45ab42ccb0815c056&amp;type=3#UXML_BTN_Base" />
+    <Style src="project://database/Assets/SpineFXEditor/USS/USS_Popup_AniSelect.uss?fileID=7433441132597879392&amp;guid=fd394bc549114e84aa7207f6dcb3347a&amp;type=3#USS_Popup_AniSelect" />
+    <ui:VisualElement name="VE_Popup_Select_Back" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.68); align-items: center; justify-content: center;">
+        <ui:VisualElement name="VE_Popup_Select" style="width: 400px; height: 722px; background-color: rgb(0, 0, 0);">
+            <ui:ListView name="LB_Names" fixed-item-height="50" style="border-left-color: rgb(255, 254, 0); border-right-color: rgb(255, 254, 0); border-top-color: rgb(255, 254, 0); border-bottom-color: rgb(255, 254, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; flex-grow: 1; height: 80%;" />
+            <ui:Instance template="UXML_BTN_Base" name="BTN_Name_Confirm" style="flex-grow: 1;">
+                <AttributeOverrides element-name="LB_BTN_Text" text="선택 완료" />
+            </ui:Instance>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+VisualElement {
+}
+
+.LB_Title {
+    -unity-font: resource('Font/NotoSansKR-Regular');
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 20, 20);
+    border-left-color: rgb(255, 169, 0);
+    border-right-color: rgb(255, 169, 0);
+    border-top-color: rgb(255, 169, 0);
+    border-bottom-color: rgb(255, 169, 0);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}

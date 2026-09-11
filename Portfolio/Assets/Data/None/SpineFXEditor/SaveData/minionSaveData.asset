@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bac5275662653d4bbc545df4758dd7a, type: 3}
+  m_Name: minionSaveData
+  m_EditorClassIdentifier: 
+  m_SceneType: 0
+  m_SkeletonDataAsset: {fileID: 11400000, guid: f2efbd3f69ae555498827e90dd7c0b5f,
+    type: 2}
+  m_SpineScale: 0.026
+  m_FXDatas_All: '{"Index":0,"FXName":"FX_Meta_Minion_Reward_03","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Meta_Minion_Reward_03.prefab","FXNotiTime":0.0,"FXDeleteTime":0.0,"IsSpineBack":true,"IsBoneChase":true,"SelectedBoneIndex":27,"FXPosition":{"x":0.0,"y":0.10000000149011612,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":3,"FXTypeData":"rainbow"};{"Index":1,"FXName":"FX_Meta_Minion_Reward_04","FXPath":"D:/Work/WonderPop/DevBranch_Android/Assets/8_Effect/Meta/Prefab/FX_Meta_Minion_Reward_04.prefab","FXNotiTime":0.0,"FXDeleteTime":0.0,"IsSpineBack":true,"IsBoneChase":true,"SelectedBoneIndex":25,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":3,"FXTypeData":"life"};{"Index":2,"FXName":"FX_Meta_Minion_Reward_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Meta_Minion_Reward_01.prefab","FXNotiTime":0.0,"FXDeleteTime":0.0,"IsSpineBack":true,"IsBoneChase":true,"SelectedBoneIndex":24,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":3,"FXTypeData":"bomb"};{"Index":3,"FXName":"FX_Meta_Minion_Reward_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Meta_Minion_Reward_02.prefab","FXNotiTime":0.0,"FXDeleteTime":0.0,"IsSpineBack":true,"IsBoneChase":true,"SelectedBoneIndex":26,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":3,"FXTypeData":"rocket"}'
+  m_FXObjects:
+  - {fileID: 1667138377328315832, guid: a10bf8a841e845a48aada39971d39a57, type: 3}
+  - {fileID: 1667138377328315832, guid: 46c105b912c29184cbe013f14a7b051c, type: 3}
+  - {fileID: 1667138377328315832, guid: a4758b255334ff240b814d15f4df960c, type: 3}
+  - {fileID: 1667138377328315832, guid: 4c32f2232cd850643834522fb46d5640, type: 3}

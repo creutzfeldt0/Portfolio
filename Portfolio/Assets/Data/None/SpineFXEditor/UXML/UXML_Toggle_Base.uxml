@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/2_Script/SpineFXEditor/UIToolKit/USS/USS_Toggle_Base.uss?fileID=7433441132597879392&amp;guid=31c0eed069dd30244834713b51f0ab92&amp;type=3#USS_Toggle_Base" />
+    <ui:Button display-tooltip-when-elided="true" name="Toggle_Base" enable-rich-text="true" class="Toggle_Base">
+        <ui:VisualElement name="VE_Selected" class="Toggle_Selected_Off" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="LB_Toggle_Text" class="LB_Toggle_Text" style="font-size: 30px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+    </ui:Button>
+</ui:UXML>

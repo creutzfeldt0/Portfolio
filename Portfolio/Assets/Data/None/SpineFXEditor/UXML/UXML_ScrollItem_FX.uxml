@@ -1,0 +1,69 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UXML_BTN_Base" src="project://database/Assets/UI%20Toolkit/UXML/UXML_BTN_Base.uxml?fileID=9197481963319205126&amp;guid=e7c2670c81ae94c45ab42ccb0815c056&amp;type=3#UXML_BTN_Base" />
+    <ui:Template name="UXML_Toggle_Base" src="project://database/Assets/UI%20Toolkit/UXML/UXML_Toggle_Base.uxml?fileID=9197481963319205126&amp;guid=d913bfe82ea43454298cbeeecc4e6ab0&amp;type=3#UXML_Toggle_Base" />
+    <Style src="project://database/Assets/SpineFXEditor/USS/USS_ScrollItem_FX.uss?fileID=7433441132597879392&amp;guid=78d31a0ce98fbcf429b5a856599a1f78&amp;type=3#USS_ScrollItem_FX" />
+    <ui:VisualElement name="VE_ScrollItem_FX" style="background-color: rgb(0, 0, 0); border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; -unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); font-size: 20px; color: rgb(255, 144, 0); -unity-text-align: middle-left; flex-grow: 1;">
+        <ui:GroupBox name="GB_FX" style="display: none; flex-shrink: 1; flex-grow: 1; min-height: 280px; min-width: 700px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px;">
+            <ui:GroupBox name="GB_Prefab" style="flex-direction: row; flex-grow: 1; flex-shrink: 1; max-height: 60px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                <ui:Instance template="UXML_BTN_Base" name="BTN_PrefabReplace" style="flex-grow: 1;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="FX 프리팹 교체하기" />
+                </ui:Instance>
+                <ui:Label display-tooltip-when-elided="true" name="LB_Prefab_Name" style="flex-shrink: 1; flex-grow: 1;" />
+                <ui:Instance template="UXML_BTN_Base" name="BTN_Delete_FX" style="flex-grow: 0; width: 8%; -unity-text-align: middle-center;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="X" />
+                </ui:Instance>
+            </ui:GroupBox>
+            <ui:Label text="Path" display-tooltip-when-elided="true" name="LB_Prefab_Path" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); max-height: 60px; flex-shrink: 1; flex-grow: 1; font-size: 20px; color: rgb(255, 144, 0); -unity-text-align: middle-left;" />
+            <ui:VisualElement name="VE_FX_Status" style="flex-grow: 1; flex-direction: row; min-height: 60px;">
+                <ui:Instance template="UXML_BTN_Base" name="BTN_FXType" style="flex-grow: 1; width: 25%;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="애니FX" />
+                </ui:Instance>
+                <ui:Instance template="UXML_Toggle_Base" name="Toggle_IsSpineBack" style="width: 25%; flex-grow: 1;">
+                    <AttributeOverrides element-name="LB_Toggle_Text" text="모델 뒤로" />
+                </ui:Instance>
+                <ui:Instance template="UXML_Toggle_Base" name="Toggle_IsBone" style="flex-grow: 1; width: 25%;">
+                    <AttributeOverrides element-name="LB_Toggle_Text" text="본 추적" />
+                </ui:Instance>
+                <ui:Instance template="UXML_BTN_Base" name="BTN_BoneSelect" style="flex-grow: 1; width: 25%;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="추적 본 선택" />
+                </ui:Instance>
+            </ui:VisualElement>
+            <ui:GroupBox name="GB_Time" style="flex-shrink: 1; flex-grow: 1; max-height: 60px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-direction: row; -unity-text-align: middle-center;">
+                <ui:TextField picking-mode="Ignore" label="FX 시작시간" value="filler text" text="0" name="TF_FX_StartTime" style="color: rgb(255, 144, 0); font-size: 20px; flex-shrink: 1; flex-grow: 1;" />
+                <ui:TextField picking-mode="Ignore" label="FX 끝 시간" value="filler text" text="0" name="TF_FX_End_Time" style="font-size: 20px; color: rgb(255, 144, 0); flex-shrink: 1; flex-grow: 1;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="GB_Transform" style="flex-shrink: 1; flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-direction: row; display: flex; max-height: 120px;">
+                <ui:GroupBox name="GB_T_Pos" style="flex-direction: row; flex-shrink: 1; flex-grow: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px;">
+                    <ui:TextField picking-mode="Ignore" label="Pos   X" value="0" text="0" name="TF_Position_X" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                    <ui:TextField picking-mode="Ignore" label="Y" value="0" text="0" name="TF_Position_Y" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                    <ui:TextField picking-mode="Ignore" label="Z" value="0" text="0" name="TF_Position_Z" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                </ui:GroupBox>
+                <ui:GroupBox name="GB_T_Scale" style="flex-direction: row; flex-shrink: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px;">
+                    <ui:TextField picking-mode="Ignore" label="Scale   X" value="0" text="1" name="TF_Scale_X" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                    <ui:TextField picking-mode="Ignore" label="Y" value="0" text="1" name="TF_Scale_Y" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                    <ui:TextField picking-mode="Ignore" label="Z" value="0" text="1" name="TF_Scale_Z" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:GroupBox name="GB_Transform_Bone" style="flex-shrink: 1; flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-direction: column; display: none;">
+                <ui:Label text="본 이름" display-tooltip-when-elided="true" name="LB_BoneName" style="flex-shrink: 1; flex-grow: 1;" />
+                <ui:GroupBox name="GB_Bone_Trans" style="flex-direction: row; flex-shrink: 1; flex-grow: 1;">
+                    <ui:GroupBox name="GB_T_B_Pos" style="flex-direction: row; flex-shrink: 1; flex-grow: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px;">
+                        <ui:TextField picking-mode="Ignore" label="Pos   X" value="0" text="0" name="TF_Bone_Pos_X" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                        <ui:TextField picking-mode="Ignore" label="Y" value="0" text="0" name="TF_Bone_Pos_Y" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                        <ui:TextField picking-mode="Ignore" label="Z" value="0" text="0" name="TF_Bone_Pos_Z" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                    </ui:GroupBox>
+                    <ui:GroupBox name="GB_T_B_Scale" style="flex-direction: row; flex-shrink: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px;">
+                        <ui:TextField picking-mode="Ignore" label="Scale   X" value="0" text="0" name="TF_Bone_Scale_X" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                        <ui:TextField picking-mode="Ignore" label="Y" value="0" text="0" name="TF_Bone_Scale_Y" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                        <ui:TextField picking-mode="Ignore" label="Z" value="0" text="0" name="TF_Bone_Scale_Z" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;" />
+                    </ui:GroupBox>
+                </ui:GroupBox>
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="GB_FX_None" style="flex-shrink: 1; flex-grow: 1; display: flex; min-height: 280px; min-width: 700px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px;">
+            <ui:Instance template="UXML_BTN_Base" name="BTN_FX_Load" style="flex-grow: 1;">
+                <AttributeOverrides element-name="LB_BTN_Text" text="FX 추가하기" />
+            </ui:Instance>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

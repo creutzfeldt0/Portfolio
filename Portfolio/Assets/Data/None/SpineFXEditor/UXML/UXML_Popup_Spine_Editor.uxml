@@ -1,0 +1,64 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="UXML_Toggle_Base" src="project://database/Assets/UI%20Toolkit/UXML/UXML_Toggle_Base.uxml?fileID=9197481963319205126&amp;guid=d913bfe82ea43454298cbeeecc4e6ab0&amp;type=3#UXML_Toggle_Base" />
+    <ui:Template name="UXML_BTN_Base" src="project://database/Assets/UI%20Toolkit/UXML/UXML_BTN_Base.uxml?fileID=9197481963319205126&amp;guid=e7c2670c81ae94c45ab42ccb0815c056&amp;type=3#UXML_BTN_Base" />
+    <Style src="project://database/Assets/SpineFXEditor/USS/USS_Popup_Spine_Editor.uss?fileID=7433441132597879392&amp;guid=90b5066761304ea40a356b3f9b55d181&amp;type=3#USS_Popup_Spine_Editor" />
+    <ui:VisualElement name="VB_Popup_Spine_Editor" style="flex-grow: 1; min-width: 700px;">
+        <ui:GroupBox name="GB_Scene_Env" style="flex-grow: 1; flex-direction: row; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; flex-shrink: 1;">
+            <ui:Label text="씬 환경" display-tooltip-when-elided="true" name="LB_Title_Scene" style="color: rgb(255, 255, 255); font-size: 30px; -unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;);" />
+            <ui:Instance template="UXML_Toggle_Base" name="Toggle_SceneEmpty" style="flex-grow: 1;">
+                <AttributeOverrides element-name="LB_Toggle_Text" text="기본 씬" />
+            </ui:Instance>
+            <ui:Instance template="UXML_Toggle_Base" name="Toggle_SceneUI" style="flex-grow: 1;">
+                <AttributeOverrides element-name="LB_Toggle_Text" text="UI 씬" />
+            </ui:Instance>
+            <ui:Instance template="UXML_Toggle_Base" name="Toggle_SceneInGame" style="flex-grow: 1;">
+                <AttributeOverrides element-name="LB_Toggle_Text" text="InGame 씬" />
+            </ui:Instance>
+        </ui:GroupBox>
+        <ui:GroupBox name="GB_Spine" style="border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; flex-grow: 1; flex-shrink: 1; flex-direction: row;">
+            <ui:Instance template="UXML_BTN_Base" name="BTN_LoadDataAsset" style="flex-grow: 1; width: 30%;">
+                <AttributeOverrides element-name="LB_BTN_Text" text="스파인 데이터 불러오기" />
+            </ui:Instance>
+            <ui:Label text="스파인 Scale" display-tooltip-when-elided="true" name="LB_TitleScale" style="flex-grow: 1; flex-shrink: 1; font-size: 26px; -unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); color: rgb(255, 255, 255); width: 0; -unity-text-align: upper-center;" />
+            <ui:TextField picking-mode="Ignore" value="1" text="1" name="TF_SpineScale" style="flex-grow: 1; flex-shrink: 1; width: auto; color: rgb(0, 0, 0); font-size: 20px; -unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="GB_Animation" style="flex-shrink: 1; flex-grow: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; min-height: 200px;">
+            <ui:GroupBox name="GB_AniSelect" style="flex-shrink: 1; flex-grow: 1; min-height: 50px; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+                <ui:Instance template="UXML_BTN_Base" name="BTN_AniSelect" style="flex-grow: 1;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="애니메이션 선택" />
+                </ui:Instance>
+                <ui:Label display-tooltip-when-elided="true" name="LB_AniName" style="flex-shrink: 1; flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; font-size: 24px; -unity-text-align: middle-center; color: rgb(255, 255, 255);" />
+                <ui:Instance template="UXML_BTN_Base" name="BTN_SkinSelect" style="flex-grow: 1;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="스킨 선택" />
+                </ui:Instance>
+            </ui:GroupBox>
+            <ui:GroupBox name="GB_AniStatus" style="flex-direction: row; flex-shrink: 1; flex-grow: 1;">
+                <ui:Label text="애니메이션 총 길이(s) :" display-tooltip-when-elided="true" name="LB_T_AniTime" style="-unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); font-size: 20px; color: rgb(255, 255, 255); flex-shrink: 1; flex-grow: 1; width: 86px; -unity-text-align: middle-left; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                <ui:Label text="0s" display-tooltip-when-elided="true" name="LB_AniTime" style="-unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); font-size: 20px; color: rgb(255, 255, 255); flex-shrink: 1; flex-grow: 1; -unity-text-align: middle-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                <ui:Label text="애니메이션 속도(기본1) :" display-tooltip-when-elided="true" name="LB_T_AniTimeScale" style="-unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); font-size: 20px; color: rgb(255, 255, 255); flex-shrink: 1; flex-grow: 1; width: 99px; -unity-text-align: middle-left; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                <ui:Label text="0s" display-tooltip-when-elided="true" name="LB_AniTimeScale" style="-unity-font: resource(&apos;Font/NotoSansKR-Regular&apos;); font-size: 20px; color: rgb(255, 255, 255); flex-shrink: 1; flex-grow: 1; -unity-text-align: middle-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="GB_AniTime" style="flex-direction: row; flex-shrink: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-grow: 1;">
+                <ui:Slider picking-mode="Ignore" value="0" name="SL_AniTime" high-value="100" show-input-field="false" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; flex-shrink: 1; flex-grow: 1; width: 80%;" />
+                <ui:TextField picking-mode="Ignore" value="0" text="0" name="TF_AniTime" style="flex-shrink: 1; flex-grow: 1;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="GB_AniBTNs" style="flex-direction: row; min-height: 54px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 2px; padding-right: 2px; padding-top: 0; padding-bottom: 0; justify-content: space-between; flex-shrink: 1; flex-grow: 1;">
+                <ui:Instance template="UXML_BTN_Base" name="BTN_TimeBack" style="flex-grow: 1; padding-left: 2px; padding-right: 2px;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="&lt;&lt;" />
+                </ui:Instance>
+                <ui:Instance template="UXML_BTN_Base" name="BTN_TimePlay" style="flex-grow: 1; padding-left: 2px; padding-right: 2px;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="Play" />
+                </ui:Instance>
+                <ui:Instance template="UXML_BTN_Base" name="BTN_TimeStop" style="flex-grow: 1; padding-left: 2px; padding-right: 2px;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="Stop" />
+                </ui:Instance>
+                <ui:Instance template="UXML_BTN_Base" name="BTN_TimeFoward" style="flex-grow: 1; padding-left: 2px; padding-right: 2px;">
+                    <AttributeOverrides element-name="LB_BTN_Text" text="&gt;&gt;" />
+                </ui:Instance>
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="GB_FXs" style="min-height: 260px; flex-grow: 1; flex-shrink: 1; border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 144, 0); border-top-color: rgb(255, 144, 0); border-bottom-color: rgb(255, 144, 0); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; min-width: 700px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:ScrollView name="SV_FXs" mode="Horizontal" horizontal-page-size="700" vertical-page-size="280" style="flex-grow: 1;" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bac5275662653d4bbc545df4758dd7a, type: 3}
+  m_Name: Meta_pokota_pirateSaveData
+  m_EditorClassIdentifier: 
+  m_SceneType: 0
+  m_SkeletonDataAsset: {fileID: 11400000, guid: 7ef13b50ac3cd1849887e316541d1048,
+    type: 2}
+  m_SpineScale: 1
+  m_FXDatas_All: '{"Index":0,"FXName":"FX_Minion_Attack_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Minion_Attack_01.prefab","FXNotiTime":0.0,"FXDeleteTime":1.399999976158142,"IsSpineBack":false,"IsBoneChase":false,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":0,"FXTypeData":"battle_attack"};{"Index":1,"FXName":"FX_Minion_Attack_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Minion_Attack_02.prefab","FXNotiTime":0.0,"FXDeleteTime":1.399999976158142,"IsSpineBack":false,"IsBoneChase":false,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":0,"FXTypeData":"battle_attack"};{"Index":2,"FXName":"FX_Star_Trail_01_Pirate_01","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Pirate_01.prefab","FXNotiTime":0.0,"FXDeleteTime":4.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":0,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"};{"Index":3,"FXName":"FX_Star_Trail_01_Pirate_02","FXPath":"C:/Work_08/Assets/8_Effect/Meta/Prefab/FX_Star_Trail_01_Pirate_02.prefab","FXNotiTime":0.0,"FXDeleteTime":4.0,"IsSpineBack":false,"IsBoneChase":true,"SelectedBoneIndex":525,"FXPosition":{"x":0.0,"y":0.0,"z":0.0},"FXScale":{"x":1.0,"y":1.0,"z":1.0},"FXType":1,"FXTypeData":"fly_idle_tap_herb"}'
+  m_FXObjects:
+  - {fileID: 99422740883713442, guid: 1e0cf9967b809544a8e60e3fedec48b3, type: 3}
+  - {fileID: 99422740883713442, guid: 5adcd1b319a974348acefb9e2f154423, type: 3}
+  - {fileID: 2425150964811998504, guid: 0b5b30eaa87670748980792bd3e1030c, type: 3}
+  - {fileID: 2425150964811998504, guid: 8e4456b2937718147af3fad40e8c2334, type: 3}
